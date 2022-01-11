@@ -14,6 +14,7 @@
 * ![IMAGE](../../images/icons/Room2D.png) [Room2D](../components/Room2D.md)
 * ![IMAGE](../../images/icons/Solve_Adjacency.png) [Solve Adjacency](../components/Solve_Adjacency.md)
 * ![IMAGE](../../images/icons/Apply_Facade_Parameters.png) [Apply Facade Parameters](../components/Apply_Facade_Parameters.md)
+* ![IMAGE](../../images/icons/Detailed_Windows.png) [Detailed Windows](../components/Detailed_Windows.md)
 * ![IMAGE](../../images/icons/Repeating_Window_Ratio_Parameters.png) [Repeating Window Ratio Parameters](../components/Repeating_Window_Ratio_Parameters.md)
 * ![IMAGE](../../images/icons/Repeating_Window_Width_Height_Parameters.png) [Repeating Window Width Height Parameters](../components/Repeating_Window_Width_Height_Parameters.md)
 * ![IMAGE](../../images/icons/Simple_Window_Ratio_Parameters.png) [Simple Window Ratio Parameters](../components/Simple_Window_Ratio_Parameters.md)
@@ -22,4 +23,3 @@
 * ![IMAGE](../../images/icons/Louver_Parameters.png) [Louver Parameters](../components/Louver_Parameters.md)
 * ![IMAGE](../../images/icons/Overhang_Parameters.png) [Overhang Parameters](../components/Overhang_Parameters.md)
 * ![IMAGE](../../images/icons/ContextShade.png) [Con..Shade](../components/Con..Shade.md)
-* ![IMAGE](../../images/icons/Straight_Skeleton.png) [Straight Skeleton](../components/Straight_Skeleton.md)

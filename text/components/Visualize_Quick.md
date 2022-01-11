@@ -1,8 +1,8 @@
-## Vizualize Quick
+## Visualize Quick
 
-![](../../images/components/Vizualize_Quick.png)
+![](../../images/components/Visualize_Quick.png)
 
-![](../../images/icons/Vizualize_Quick.png) - [[source code]](https://github.com/ladybug-tools/dragonfly-grasshopper/blob/master/dragonfly_grasshopper/src//DF%20Vizualize%20Quick.py)
+![](../../images/icons/Visualize_Quick.png) - [[source code]](https://github.com/ladybug-tools/dragonfly-grasshopper/blob/master/dragonfly_grasshopper/src//DF%20Visualize%20Quick.py)
 
 
 Quickly preview any Dragonfly geometry object within the Rhino scene. 

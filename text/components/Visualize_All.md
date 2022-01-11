@@ -1,8 +1,8 @@
-## Vizualize All
+## Visualize All
 
-![](../../images/components/Vizualize_All.png)
+![](../../images/components/Visualize_All.png)
 
-![](../../images/icons/Vizualize_All.png) - [[source code]](https://github.com/ladybug-tools/dragonfly-grasshopper/blob/master/dragonfly_grasshopper/src//DF%20Vizualize%20All.py)
+![](../../images/icons/Visualize_All.png) - [[source code]](https://github.com/ladybug-tools/dragonfly-grasshopper/blob/master/dragonfly_grasshopper/src//DF%20Visualize%20All.py)
 
 
 Preview any Dragonfly geometry object within the Rhino scene, including all stories represented by multipliers 

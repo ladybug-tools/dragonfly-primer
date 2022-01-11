@@ -5,7 +5,7 @@
 ![](../../images/icons/Reassign_Energy_Properties.png) - [[source code]](https://github.com/ladybug-tools/dragonfly-grasshopper/blob/master/dragonfly_grasshopper/src//DF%20Reassign%20Energy%20Properties.py)
 
 
-Re-assign energy properties to any Dragonfly object (Building, Story, Room2D). 
+Re-assign energy properties to any Dragonfly object (Building, Story, Room2D, Model). 
 
 This is useful for editing auto-generated child objects separately from their parent. For example, if you want to assign all of the ground floors of a given auto-generated Building to have a Retail ProgramType, this can help re-assign a Retail ProgramType to such stories. 
 
@@ -13,7 +13,7 @@ This is useful for editing auto-generated child objects separately from their pa
 
 #### Inputs
 * ##### df_obj [Required]
-A Dragonfly Building, Story or Room2D which is to have its energy properties re-assigned. 
+A Dragonfly Building, Story or Room2D which is to have its energy properties re-assigned. This can also be an entire Dragonfly Model. 
 * ##### program 
 Text to reassign the program of the input objects (to be looked up in the ProgramType library) such as that output from the "HB List Programs" component. This can also be a custom ProgramType object. 
 * ##### constr_set 

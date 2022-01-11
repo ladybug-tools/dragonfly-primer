@@ -24,6 +24,8 @@ Text to describe how the input Buildings should be divided across the output Mod
 If True, the multipliers on each Building's Stories will be passed along to the generated Honeybee Room objects, indicating the simulation will be run once for each unique room and then results will be multiplied. If False, full geometry objects will be written for each and every story in the building such that all resulting multipliers will be 1. (Default: True). 
 * ##### add_plenum 
 Boolean to indicate whether ceiling/floor plenums should be auto-generated for the Rooms. The height of ceiling plenums will be autocalculated as the difference between the Room2D ceiling height and Story ceiling height. The height of the floor plenum will be autocalculated as the difference between the Room2D floor height and Story floor height. (Default: False). 
+* ##### ceil_adjacency 
+Boolean to note whether adjacencies should be solved between interior stories when Room2Ds perfectly match one another in their floor plate. This ensures that Surface boundary conditions are used instead of Adiabatic ones. Note that this input has no effect when the _obj_per_model_ is Story. (Default: False). 
 * ##### cap_shades 
 Boolean to note whether building shade representations should be capped with a top face. Usually, this is not necessary to account for blocked sun and is only needed when it's important to account for reflected sun off of roofs. (Default: False). 
 * ##### shade_dist 
