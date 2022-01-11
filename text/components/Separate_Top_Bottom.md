@@ -7,13 +7,15 @@
 
 Separate the top and bottom floors of a Building into unique Stories with a multiplier of 1 and automatically assign the first story Room2Ds to have a ground contact floor and the top story Room2Ds to have an outdoor-exposed roof. 
 
-This is particularly helpful when using to_honeybee workflows with multipliers but one wants to account for the heat exchange of the top or bottom floors with the gound or outdoors. 
+This is particularly helpful when trying to account for the heat exchange of the top or bottom floors with the gound or outdoors. 
 
 
 
 #### Inputs
 * ##### buildings [Required]
-Dragonfly Building objects which will have their top and bottom stories separated into unique ones with a multiplier of 1. 
+Dragonfly Building objects which will have their top and bottom stories separated into unique ones with a multiplier of 1. This can also be an entire Dragonfly Model. 
+* ##### sep_mid 
+Boolean to note whether all mid-level Stories with non-unity multipliers should be separated into two or three Stories. This means that the top of each unique story will have outdoor-exposed roofs when no Room2Ds are sensed above a given room. (Default: False). 
 
 #### Outputs
 * ##### buildings

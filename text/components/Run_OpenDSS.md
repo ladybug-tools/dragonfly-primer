@@ -9,10 +9,6 @@ Run a an URBANopt geoJSON and scenario through OpenDSS.
 
 The geoJSON must have a valid Electrical Network assigned to it in order to run correctly through OpenDSS. 
 
-This component also requires the urbanopt-ditto-reader to be installed. The urbanopt-ditto-reader can be installed by installing Python 3.7 and then running the following from command line; 
-
-pip install urbanopt-ditto-reader==0.3.8 
-
 
 
 #### Inputs

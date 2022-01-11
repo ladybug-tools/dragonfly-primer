@@ -1,8 +1,8 @@
-## Vizualize Floors
+## Visualize Floors
 
-![](../../images/components/Vizualize_Floors.png)
+![](../../images/components/Visualize_Floors.png)
 
-![](../../images/icons/Vizualize_Floors.png) - [[source code]](https://github.com/ladybug-tools/dragonfly-grasshopper/blob/master/dragonfly_grasshopper/src//DF%20Vizualize%20Floors.py)
+![](../../images/icons/Visualize_Floors.png) - [[source code]](https://github.com/ladybug-tools/dragonfly-grasshopper/blob/master/dragonfly_grasshopper/src//DF%20Visualize%20Floors.py)
 
 
 Preview any Dragonfly geometry object as floor plates within the Rhino scene, including all stories represented by multipliers 

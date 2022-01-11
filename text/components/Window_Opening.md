@@ -5,13 +5,13 @@
 ![](../../images/icons/Window_Opening.png) - [[source code]](https://github.com/ladybug-tools/dragonfly-grasshopper/blob/master/dragonfly_grasshopper/src//DF%20Window%20Opening.py)
 
 
-Define the window opening properties for all apertures of a Dragonfly Building, Story or Room2D. 
+Define the window opening properties for all apertures of a Dragonfly Building, Story, Room2D or Model. 
 
 
 
 #### Inputs
 * ##### df_objs [Required]
-Dragonfly Buildings, Stories or Room2Ds to which window ventilation opening properties will be assigned. Note that this component assigns such properties to all Outdoor Apertures on the rooms. 
+Dragonfly Buildings, Stories or Room2Ds to which window ventilation opening properties will be assigned. Note that this component assigns such properties to all Outdoor Apertures on the rooms. This can also be an entire Dragonfly Model. 
 * ##### vent_cntrl [Required]
 A Ventilation Control object from the "HB Ventilation Control" component, which dictates the opening behaviour of the Room's apertures. 
 * ##### fract_area_oper 

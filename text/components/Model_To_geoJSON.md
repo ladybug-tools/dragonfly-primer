@@ -20,6 +20,8 @@ A Point for where the _location object exists within the space of the Rhino scen
 If True, the multipliers on each Building's Stories will be passed along to the generated Honeybee Room objects, indicating the simulation will be run once for each unique room and then results will be multiplied. If False, full geometry objects will be written for each and every story in the building such that all resulting multipliers will be 1. Default: True. 
 * ##### add_plenum 
 Boolean to indicate whether ceiling/floor plenums should be auto-generated for the Rooms. The height of ceiling plenums will be autocalculated as the difference between the Room2D ceiling height and Story ceiling height. The height of the floor plenum will be autocalculated as the difference between the Room2D floor height and Story floor height. (Default: False). 
+* ##### ceil_adjacency 
+Boolean to note whether adjacencies should be solved between interior stories when Room2Ds perfectly match one another in their floor plate. This ensures that Surface boundary conditions are used instead of Adiabatic ones. (Default: False). 
 * ##### shade_dist 
 An optional number to note the distance beyond which other buildings' shade should not be exported into a given Model. This is helpful for reducing the simulation run time of each Model when other connected buildings are too far away to have a meaningful impact on the results. If None, all other buildings will be included as context shade in each and every Model. Set to 0 to exclude all neighboring buildings from the resulting models. Default: None. 
 * ##### elec_network 
