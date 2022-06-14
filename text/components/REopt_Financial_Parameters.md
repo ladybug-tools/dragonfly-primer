@@ -22,6 +22,8 @@ A number between 0 and 1 for the discount rate for the owner/host of the system.
 A number for the installation cost of wind power in US dollars per kW. (Default: 3013). 
 * ##### pv_cost 
 A number for the installation cost of photovoltaic power in US dollars per kW. (Default: 1600). 
+* ##### pv_grnd_cost 
+A number for the installation cost of photovoltaic power in US dollars per kW. (Default: 2200). 
 * ##### storage_cost 
 A number for the installation cost of power storage in US dollars per kW. (Default: 840). 
 * ##### gener_cost 

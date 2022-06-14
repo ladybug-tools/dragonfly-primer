@@ -23,7 +23,9 @@ A REoptParameter object to describe the financial assumptions of the REopt analy
 * ##### wind 
 A number for the maximum installed kilowatts of wind power. (Default: 0). 
 * ##### pv 
-A number for the maximum installed kilowatts of photovoltaic power. (Default: 1000000000). 
+A number for the maximum installed kilowatts of roof-mounted photovoltaic power. (Default: 1000000000). 
+* ##### pv_ground 
+A number for the maximum installed kilowatts of ground-mounted photovoltaic power. (Default: 1000000000). 
 * ##### storage 
 A number for the maximum installed kilowatts of electrical storage. (Default: 1000000). 
 * ##### generator 
@@ -41,7 +43,9 @@ A list of text that correspond to the numerical values above. Each text item exp
 * ##### wind
 A number for the optimal capacity of wind power that should be installed in kW. This will be null unless a non-zero value is specified for the input _wind_. 
 * ##### pv
-A number for the optimal capacity of photovlotaic power that should be installed in kW. 
+A number for the optimal capacity of roof-mounted photovlotaic power that should be installed in kW. 
+* ##### pv_ground
+A number for the optimal capacity of ground-mounted photovlotaic power that should be installed in kW. 
 * ##### storage
 A list of two numbers ordered as follows. 
 
