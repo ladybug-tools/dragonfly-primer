@@ -18,6 +18,8 @@ The path to an URBANopt-compatible geoJSON file. This geoJSON file can be obtain
 The path to an URBANopt .csv file for the scenario. This CSV file can be obtained form the "DF Run URBANopt" component. 
 * ##### run_period 
 A ladybyg AnalysisPeriod object to describe the time period over which to run the simulation. The default is to run the simulation for the whole EnergyPlus run period. 
+* ##### autosize 
+A boolean to note whether undersized transformers should be automatically resized to meet demand over the course of the simulation. (Default: False). 
 * ##### run [Required]
 Set to "True" to run the geojson and scenario through OpenDSS. 
 

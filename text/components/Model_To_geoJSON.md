@@ -26,6 +26,8 @@ Boolean to note whether adjacencies should be solved between interior stories wh
 An optional number to note the distance beyond which other buildings' shade should not be exported into a given Model. This is helpful for reducing the simulation run time of each Model when other connected buildings are too far away to have a meaningful impact on the results. If None, all other buildings will be included as context shade in each and every Model. Set to 0 to exclude all neighboring buildings from the resulting models. Default: None. 
 * ##### elec_network 
 An optional OpenDSS ElectricalNetwork that's associated with the input Dragonfly Model and will be written into the geoJSON. An input here is required to perform an OpenDSS simulation after running URBANopt. 
+* ##### ground_pv 
+An optional list of REopt GroundMountPV objects representing ground-mounted photovoltaic fields to be included in a REopt simulation after running URBANopt. 
 * ##### folder 
 Text for the full path to the folder where the geojson will be written along with all of the Honeybee Model JSONs. If None, the honeybee default simulation folder is used. 
 * ##### write [Required]

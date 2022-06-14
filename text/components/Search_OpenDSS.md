@@ -5,7 +5,7 @@
 ![](../../images/icons/Search_OpenDSS.png) - [[source code]](https://github.com/ladybug-tools/dragonfly-grasshopper/blob/master/dragonfly_grasshopper/src//DF%20Search%20OpenDSS.py)
 
 
-Search for available Wires and TransformerProperties within the dragonfly OpenDSS standards library. 
+Search for available TransformerProperties, PowerLines, and Wires within the dragonfly OpenDSS standards library (aka. the URBANopt extended cataolog). 
 
 
 
@@ -18,5 +18,7 @@ If False or None, this component will automatically split any strings of multipl
 #### Outputs
 * ##### transformers
 A list of all transformer properties within the dragonfly OpenDSS standards library (filtered by keywords_ if they are input). 
+* ##### power_lines
+A list of all power lines within the dragonfly OpenDSS standards library (filtered by keywords_ if they are input). 
 * ##### wires
 A list of all wires within the dragonfly OpenDSS standards library (filtered by keywords_ if they are input). 

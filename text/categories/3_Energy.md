@@ -13,6 +13,7 @@
 * ![IMAGE](../../images/icons/SHW_System.png) [SHW System](../components/SHW_System.md)
 * ![IMAGE](../../images/icons/Electrical_Connector.png) [Electrical Connector](../components/Electrical_Connector.md)
 * ![IMAGE](../../images/icons/Electrical_Network.png) [Electrical Network](../components/Electrical_Network.md)
+* ![IMAGE](../../images/icons/Ground_Photovoltaics.png) [Ground Photovoltaics](../components/Ground_Photovoltaics.md)
 * ![IMAGE](../../images/icons/REopt_Financial_Parameters.png) [REopt Financial Parameters](../components/REopt_Financial_Parameters.md)
 * ![IMAGE](../../images/icons/Read_OpenDSS_Result.png) [Read OpenDSS Result](../components/Read_OpenDSS_Result.md)
 * ![IMAGE](../../images/icons/Run_OpenDSS.png) [Run OpenDSS](../components/Run_OpenDSS.md)
