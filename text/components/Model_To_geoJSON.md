@@ -24,8 +24,8 @@ Boolean to indicate whether ceiling/floor plenums should be auto-generated for t
 Boolean to note whether adjacencies should be solved between interior stories when Room2Ds perfectly match one another in their floor plate. This ensures that Surface boundary conditions are used instead of Adiabatic ones. (Default: False). 
 * ##### shade_dist 
 An optional number to note the distance beyond which other buildings' shade should not be exported into a given Model. This is helpful for reducing the simulation run time of each Model when other connected buildings are too far away to have a meaningful impact on the results. If None, all other buildings will be included as context shade in each and every Model. Set to 0 to exclude all neighboring buildings from the resulting models. Default: None. 
-* ##### elec_network 
-An optional OpenDSS ElectricalNetwork that's associated with the input Dragonfly Model and will be written into the geoJSON. An input here is required to perform an OpenDSS simulation after running URBANopt. 
+* ##### network 
+An optional OpenDSS ElectricalNetwork or RNM RoadNetwork that's associated with the input Dragonfly Model and will be written into the geoJSON. An input here is required to perform an OpenDSS or RNM simulation after running URBANopt. 
 * ##### ground_pv 
 An optional list of REopt GroundMountPV objects representing ground-mounted photovoltaic fields to be included in a REopt simulation after running URBANopt. 
 * ##### folder 
@@ -38,6 +38,8 @@ Set to "True" to have the Dragonfly Model translated to an URBANopt-compatible g
 Reports, errors, warnings, etc. 
 * ##### geojson
 The path to a geoJSON file that contains polygons for all of the Buildings within the dragonfly model along with their properties (floor area, number of stories, etc.). The polygons will also possess detailed_model_filename keys that align with where the Honeybee Model JSONs are written. 
+* ##### net_json
+A JSON file containing a representation of the electrical or street network. This can be loaded back to the original object using the "DF Load Objects" component. This will be None if no network_ is connected. 
 * ##### hb_jsons
 A list of file paths to honeybee Model JSONS that correspond to the detailed_model_filename keys in the geojson. 
 * ##### hb_models

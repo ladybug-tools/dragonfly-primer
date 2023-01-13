@@ -24,6 +24,8 @@ An optional list of measures to apply to the OpenStudio model upon export. Use t
 An optional list of dragonfly MapperMeasure objects to be included in the output osw. MapperMeasures are just like normal OpenStudio measures except they can accept a list of values for their arguments that align with the buildings in dragonfly Model. Each value in the list will be mapped to a different building. 
 * ##### report 
 Boolean to note whether to include the URBANopt default feature reporting measure as part of the simulation. If True, the measure will be run after all simulations are complete. (Default:True). 
+* ##### emiss_yr 
+An optional integer to set the year for which carbon emissions will be computed. Values must be an even number and be between 2020 and 2050. If unspecified, no carbon emission calculations will be included in the simulation. After the simulation is run, the hourly carbon emissions can be imported from the output sql files by using the "HB Read Custom Result" component and plugging in the following output name: Future_Hourly_Electricity_Emissions 
 * ##### cpus 
 A positive integer for the number of CPUs to use in the simulation. This number should not exceed the number of CPUs on the machine running the simulation and should be lower if other tasks are running while the simulation is running. If set to None, it should automatically default to one less than the number of CPUs currently available on the machine (or 1 if the machine has only one processor). (Default: None). 
 * ##### run [Required]

@@ -15,7 +15,7 @@ This can be used as a means to check that correct properties are assigned to dif
 * ##### df_obj [Required]
 A Dragonfly Model, Building, Story or Room2D to be colored with their attributes in the Rhino scene. 
 * ##### attribute [Required]
-Text for the name of the Room2D attribute by which the Room2Ds should be separated. The "DF Room2D Attributes" component lists all of the attributes of the Room2D. 
+Text for the name of the Room2D attribute with which the Room2Ds should be colored. The "DF Room2D Attributes" component lists all of the attributes of the Room2D. 
 * ##### legend_par 
 An optional LegendParameter object to change the display of the colored Room2Ds. (Default: None). 
 
