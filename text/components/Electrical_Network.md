@@ -25,4 +25,4 @@ Text to be used for the name and identifier of the Electrical Newtork. If no nam
 * ##### report
 Reports, errors, warnings, etc. 
 * ##### network
-A Dragonfly Electrical Newtork object possessing all electrical infrastructure for an OpenDSS simulation. 
+A Dragonfly Electrical Newtork object possessing all electrical infrastructure for an OpenDSS simulation. This should be connected to the network_ input of the "DF Model to GeoJSON" component. 

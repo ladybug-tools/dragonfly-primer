@@ -7,3 +7,5 @@
 * ![IMAGE](../../images/icons/Room2D_Attributes.png) [Room2D Attributes](../components/Room2D_Attributes.md)
 * ![IMAGE](../../images/icons/Color_Room2D_Attributes.png) [Color Room2D Attributes](../components/Color_Room2D_Attributes.md)
 * ![IMAGE](../../images/icons/Room2Ds_by_Attribute.png) [Room2Ds by Attribute](../components/Room2Ds_by_Attribute.md)
+* ![IMAGE](../../images/icons/Color_Network_Attributes.png) [Color Network Attributes](../components/Color_Network_Attributes.md)
+* ![IMAGE](../../images/icons/Network_Attributes.png) [Network Attributes](../components/Network_Attributes.md)
