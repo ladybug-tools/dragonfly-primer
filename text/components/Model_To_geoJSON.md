@@ -24,6 +24,8 @@ Boolean to indicate whether ceiling/floor plenums should be auto-generated for t
 Boolean to note whether adjacencies should be solved between interior stories when Room2Ds perfectly match one another in their floor plate. This ensures that Surface boundary conditions are used instead of Adiabatic ones. (Default: False). 
 * ##### shade_dist 
 An optional number to note the distance beyond which other buildings' shade should not be exported into a given Model. This is helpful for reducing the simulation run time of each Model when other connected buildings are too far away to have a meaningful impact on the results. If None, all other buildings will be included as context shade in each and every Model. Set to 0 to exclude all neighboring buildings from the resulting models. Default: None. 
+* ##### des_loop 
+An optional District Energy System (DES) ThermalLoop that's associated with the dragonfly Model. 
 * ##### network 
 An optional OpenDSS ElectricalNetwork or RNM RoadNetwork that's associated with the input Dragonfly Model and will be written into the geoJSON. An input here is required to perform an OpenDSS or RNM simulation after running URBANopt. 
 * ##### ground_pv 

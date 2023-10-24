@@ -11,7 +11,7 @@ Create Dragonfly Room2Ds from floor plate geometry (horizontal Rhino surfaces).
 
 #### Inputs
 * ##### geo [Required]
-A list of horizontal Rhino surfaces representing floor plates to be converted into Room2Ds. 
+A list of horizontal Rhino surfaces or closed planar polylines representing floor plates to be converted into Room2Ds. 
 * ##### flr_to_ceiling [Required]
 A number for the height above the floor where the ceiling begins. Typical values range from 3 to 5 meters. 
 * ##### name 

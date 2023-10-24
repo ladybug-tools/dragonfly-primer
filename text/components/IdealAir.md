@@ -34,6 +34,10 @@ A number for the minimum cooling supply air temperature [C]. Default: 13, which 
 A number for the maximum heating capacity in Watts. This can also be the text 'autosize' to indicate that the capacity should be determined during the EnergyPlus sizing calculation. This can also be the text 'NoLimit' to indicate no upper limit to the heating capacity. Default: 'autosize'. 
 * ##### cool_limit 
 A number for the maximum cooling capacity in Watts. This can also be the text 'autosize' to indicate that the capacity should be determined during the EnergyPlus sizing calculation. This can also be the text 'NoLimit' to indicate no upper limit to the cooling capacity. Default: 'autosize'. 
+* ##### heat_avail 
+An optional on/off schedule to set the availability of heating over the course of the simulation. This can also be the identifier of an on/off schedule to be looked up in the schedule library (Default: None). 
+* ##### cool_avail 
+An optional on/off schedule to set the availability of cooling over the course of the simulation. This can also be the identifier of an on/off schedule to be looked up in the schedule library (Default: None). 
 
 #### Outputs
 * ##### report

@@ -12,6 +12,8 @@ Create a simulation parameter object that carries a complete set of Urban Weathe
 #### Inputs
 * ##### run_period 
 A Ladybug Analysis Period object to describe the time period over which to run the simulation. If None, the simulation will be run for the whole year. 
+* ##### timestep 
+An integer for the number of timesteps per hour at which the calculation will be run. (Default: 12). 
 * ##### veg_par 
 A VegetationParameter object to specify the behavior of vegetation in the urban area. If None, generic vegetation parameters will be generated. 
 * ##### epw_site 
