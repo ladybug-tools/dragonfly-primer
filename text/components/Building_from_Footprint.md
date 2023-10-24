@@ -11,7 +11,7 @@ Create Dragonfly Buildings from footprint geometry (horizontal Rhino surfaces).
 
 #### Inputs
 * ##### footprint_geo [Required]
-A list of horizontal Rhino surfaces to be converted into Buildings. 
+A list of horizontal Rhino surfaces or closed planar curves to be converted into Buildings. 
 * ##### floor_to_floor [Required]
 A list of float values with a length equal to the number of stories in each Building. Each value in the list represents the floor_to_floor height of the Story starting from the first floor and then moving to the top floor. 
 * ##### perim_offset 

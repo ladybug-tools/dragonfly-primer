@@ -16,6 +16,8 @@ A Dragonfly Building, Story or Room2D which will have the input WindowParameters
 A WindowParameter object that dictates how the window geometries will be generated for each of the walls. If None, the window parameters will remain unchanged across the input object. If an array of values are input here, different WindowParameters will be assigned based on cardinal direction, starting with north and moving clockwise. 
 * ##### shd_par 
 A ShadingParameter objects that dictate how the shade geometries will be generated for each of the walls. If None, the shading parameters will remain unchanged across the input object. If an array of values are input here, different ShadingParameters will be assigned based on cardinal direction, starting with north and moving clockwise. 
+* ##### skylight 
+A SkylightParameters object describing how to generate skylights. 
 
 #### Outputs
 * ##### report

@@ -32,7 +32,7 @@ A positive integer for the number of CPUs to use in the simulation. This number 
 Set to "True" to run the geojson through URBANopt. This will ensure that all result files appear in their respective outputs from this component. This input can also be the integer "2", which will only run the setup of the URBANopt project folder (including the creation of the scenario file) but will not execute the simulations. 
 
 #### Outputs
-* ##### report
+* ##### out
 Reports, errors, warnings, etc. 
 * ##### scenario
 File path to the URBANopt scenario CSV used as input for the URBANopt CLI run. 

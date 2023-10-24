@@ -29,7 +29,7 @@ A number for the efficiency of the heater within the system. For Gas systems, th
 
     * Electric_TanklessHeater - 1.0
 * ##### condition 
-A number for the ambient temperature in which the hot water tank is located [C]. This can also be a Room in which the tank is located. (Default: 22). 
+A number for the ambient temperature in which the hot water tank is located [C]. This can also be a Room2D in which the tank is located. (Default: 22). 
 * ##### loss_coeff 
 A number for the loss of heat from the water heater tank to the surrounding ambient conditions [W/K]. (Default: 6 W/K). 
 
