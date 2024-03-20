@@ -18,6 +18,8 @@ The path to an URBANopt-compatible geoJSON file. This geoJSON file can be obtain
 The path to an URBANopt .csv file for the scenario. This CSV file can be obtained form the "DF Run URBANopt" component. 
 * ##### write [Required]
 Set to "True" to run the component, install any missing dependencies, and write the Modelica files for the Distric Energy System. 
+* ##### run 
+Set to "True" to translate the Modelica files to a Functional Mockup Unit (FMU) and then simulate the FMU. This will ensure that all result files appear in their respective outputs from this component. 
 
 #### Outputs
 * ##### report
@@ -26,3 +28,5 @@ Reports, errors, warnings, etc.
 A JSON file containing all of the specifications of the District Energy System, including the detailed Building load profiles. 
 * ##### modelica
 A folder where all of the Modelica files of the District Energy System (DES) are written. 
+* ##### results
+A folder containing the results of the Modelica simulation if run_ is True and the simulation is successful. 
