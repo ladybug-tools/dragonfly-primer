@@ -15,7 +15,7 @@ It also includes any energy Material, Construction, ConstructionSet, Schedule,  
 
 #### Inputs
 * ##### df_file [Required]
-A file path to a dragonfly JSON from which objects will be loaded back into Grasshopper. The objects in the file must be non-abridged in order to be loaded back correctly. 
+A file path to a dragonfly JSON (or DFJSON representing a full dragonfly Model) from which objects will be loaded into Grasshopper. This can also be the path to a Pollination Model Format (.POMF) file from which a dragonfly Model will be loaded. Note that, if the objects in the JSON are not a full model, they must be non-abridged in order to be loaded correctly. 
 * ##### load [Required]
 Set to "True to load the objects from the _df_file. 
 
