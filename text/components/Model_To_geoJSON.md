@@ -17,9 +17,9 @@ A ladybug Location object possessing longitude and lattiude data used to positio
 * ##### point 
 A Point for where the _location object exists within the space of the Rhino scene. This is used to posistion the geoJSON file on the globe. (Default: Rhino origin (0, 0, 0)). 
 * ##### use_multiplier 
-If True, the multipliers on each Building's Stories will be passed along to the generated Honeybee Room objects, indicating the simulation will be run once for each unique room and then results will be multiplied. If False, full geometry objects will be written for each and every story in the building such that all resulting multipliers will be 1. Default: True. 
-* ##### add_plenum 
-Boolean to indicate whether ceiling/floor plenums should be auto-generated for the Rooms. The height of ceiling plenums will be autocalculated as the difference between the Room2D ceiling height and Story ceiling height. The height of the floor plenum will be autocalculated as the difference between the Room2D floor height and Story floor height. (Default: False). 
+If True, the multipliers on each Building's Stories will be passed along to the generated Honeybee Room objects, indicating the simulation will be run once for each unique room and then results will be multiplied. If False, full geometry objects will be written for each and every story in the building such that all resulting multipliers will be 1. (Default: True). 
+* ##### no_plenum 
+Boolean to indicate whether ceiling/floor plenum depths assigned to Room2Ds should be ignored during translation. This results in each Room2D translating to a single Honeybee Room at the full floor-to-ceiling height instead of a base Room with (a) plenum Room(s). (Default: False). 
 * ##### ceil_adjacency 
 Boolean to note whether adjacencies should be solved between interior stories when Room2Ds perfectly match one another in their floor plate. This ensures that Surface boundary conditions are used instead of Adiabatic ones. (Default: False). 
 * ##### shade_dist 
@@ -33,7 +33,7 @@ An optional list of REopt GroundMountPV objects representing ground-mounted phot
 * ##### folder 
 Text for the full path to the folder where the geojson will be written along with all of the Honeybee Model JSONs. If None, the honeybee default simulation folder is used. 
 * ##### write [Required]
-Set to "True" to have the Dragonfly Model translated to an URBANopt-compatible geoJSON. This input can also be the integer "2", which will only create the geojson file but not create any honeybee Model json files that are linked to it (note that a geojson produced this way is not compatible with URBANopt). 
+Set to "True" to have the Dragonfly Model translated to an URBANopt- compatible geoJSON. This input can also be the integer "2", which will only create the geojson file but not create any honeybee Model json files that are linked to it (note that a geojson produced this way is not compatible with URBANopt). 
 
 #### Outputs
 * ##### report

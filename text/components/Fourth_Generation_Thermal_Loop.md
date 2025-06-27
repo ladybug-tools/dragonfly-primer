@@ -5,7 +5,7 @@
 ![](../../images/icons/Fourth_Generation_Thermal_Loop.png) - [[source code]](https://github.com/ladybug-tools/dragonfly-grasshopper/blob/master/dragonfly_grasshopper/src//DF%20Fourth%20Generation%20Thermal%20Loop.py)
 
 
-Create an Fourth Generation Thermal Loop, which represents all infrastructure for a District Energy Simulation (DES) simulation. 
+Create an Fourth Generation Loop for a District Energy Simulation (DES) simulation. 
 
 This includes a central hot and chilled water plant for the district. 
 
