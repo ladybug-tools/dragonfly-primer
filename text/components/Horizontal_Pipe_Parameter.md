@@ -22,6 +22,12 @@ A number for the pressure drop in pascals per meter of pipe. (Default: 300).
 A positive number for the conductivity of the pipe insulation material in W/m-K. If no insulation exists, this value should be a virtual insulation layer of soil since this value must be greater than zero. (Default: 3.0). 
 * ##### insulation_thick 
 A positive number for the thickness of pipe insulation in Rhino model units (eg. Meters, Feet, etc.). If no insulation exists, this value should be a virtual insulation layer of soil since this value must be greater than zero. (Default: 0.2 meters). 
+* ##### hydraulic_diameter 
+A number to specify the size of the hydraulic diameter in meters. If unspecified, the hydraulic diameter will be autosized. 
+* ##### pump_head 
+A number for the design pressure of the ambient loop pump in Pa. If unspecified, the pump pressure will be autosized. 
+* ##### pump_flow 
+A number for the design volume flow rate of the ambient loop pump in m3/s. If unspecified, the pump flow rate will be autosized. 
 
 #### Outputs
 * ##### horiz_pipe
